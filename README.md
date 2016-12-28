@@ -55,7 +55,7 @@ sudo git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 ~/.vimrc #第一次要新建,为vim的配置文件,可以把所需要的插件或者需要执行的vim指令写到里面,这样就会每次使用都会自动执行  
   
 <h1>Step3:新建一个空白文件~/.vimrc,把配置好的vimrc内容拷贝进去</h1> 
-然后将我准备好的.vimrc文件放在~/.vimrc下,具体的配置请看文件内的内容  
+然后将改github项目里的vimrc文件内容拷贝到~/.vimrc下,具体的配置请看文件内的内容
 
 这是几种vim的指令:  
 &emsp;&emsp;新插件:BundleUpdate  
@@ -63,7 +63,7 @@ sudo git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 &emsp;&emsp;列出所有插件:BundleList  
 &emsp;&emsp;查找插件:BundleSearch  
   
-放好了配置好的.vimrc文件后,进入vim,输入:BundleInstall,就会开始自动安装vimrc里指定的插件,然后其他插件就搞定了,除了自动补全YouCompleteMe这个插件仍然需要自己编译,其他的插件都已经安装完毕了,具体请看vimrc文件内容  
+放了配置好的.vimrc文件后,进入vim,输入:BundleInstall,就会开始自动安装vimrc里指定的插件,然后其他插件就搞定了,除了自动补全YouCompleteMe这个插件仍然需要自己编译,其他的插件都已经安装完毕了,具体请看vimrc文件内容  
   
 <h1>Step4:编译YouCompleteMe</h1> 
 然后为了编译YouCompleteMe:  
