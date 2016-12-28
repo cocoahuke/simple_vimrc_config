@@ -65,7 +65,7 @@ let g:ycm_semantic_triggers = {}
 let g:ycm_semantic_triggers.c = ['re!(?=[a-zA-Z0-9_]{3})'] "相当于当输入字符为a-zA-Z0-9,输入第3个字符时启用全局补全
 "下面是不同语言的版本
 let g:ycm_semantic_triggers.cpp = ['re!(?=[a-zA-Z0-9_]{3})'] 
-let g:ycm_semantic_triggers.obj = ['re!(?=[a-zA-Z0-9_]{3})']
+let g:ycm_semantic_triggers.objc = ['re!(?=[a-zA-Z0-9_]{3})']
 
 
 "在注释输入中也能补全
